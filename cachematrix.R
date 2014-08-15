@@ -33,7 +33,7 @@ makeCacheMatrix <- function(x = matrix()) {
   # this is the function to set the value of the matrix
   set <- function(y) {
     x <<-y
-    i <- NULL
+    i <<- NULL
   }
   
   #this is the function to get the value of the matrix
